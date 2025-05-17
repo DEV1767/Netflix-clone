@@ -1,0 +1,55 @@
+@media screen and (max-width:1053px) {
+   
+body {
+    overflow-x: hidden;
+}
+.boxtext> :nth-child(1)
+{
+    font-size: 30px !important;
+}
+.boxtext> :nth-child(2),
+.boxtext> :nth-child(3) {
+    font-size: 15px !important;
+    font-weight: 0;
+
+}
+
+.boxtext{
+    gap:15px !important;
+    max-width: 100%;
+}
+.bt{
+    display: flex;
+    gap:5px;
+    padding-right: 10px;
+}
+.bt5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap:10px;
+}
+.bt5 input {
+    width: 90% !important;
+    max-width: 400px;
+}
+
+#bt4 {
+    width: 90% !important;
+    max-width: 100px;
+    margin: 0 auto;
+}
+.Boxes{
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 10px !important;
+}
+.second{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+}
+}
